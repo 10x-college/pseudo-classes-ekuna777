@@ -1,0 +1,224 @@
+.logo {
+    display: inline-block;
+}
+.logo span:first-child{
+    color: rgb(49, 80, 170);
+    font-size: 45px;
+}
+.logo span:nth-child(2){
+    color: rgb(178, 178, 60);
+    font-size: 45px;
+}
+.logo span:last-child{
+    color: rgb(33, 167, 100);
+    font-size: 45px;
+}
+
+.search-bar{
+    display: inline-block;
+}
+
+.search-bar input[type="text"]{
+    width: 357px;
+    height: 58px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #D8E6E9;
+    margin-left: 100px;
+}
+
+.calendar{
+    display: inline-block;
+    margin-left: 300px;
+    position: relative;
+}
+
+.button [type="submit"]{
+    display: inline-block;
+    width: 175px;
+    height: 58px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -40px;
+    background-color: #D8E6E9;
+    border-radius: 10px;
+    border-style: none;
+    transition: background-color 0.60s;
+}
+
+button[type="submit"]:hover{
+    background-color: rgba(152, 201, 212, 1);
+}
+
+.calendar button:active {
+    background-color: rgb(72, 178, 202);
+    transform: scale(0.95);
+}
+
+
+.main {
+    position: relative;
+    margin-left: 40px
+
+}
+
+.food-card {
+    width: 203px;
+    height: 214px;
+    border-radius: 15px;
+    background-color: #D8E6E9;
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+}
+
+.image-chicken {
+    width: 203px;
+    height: 143px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("chicken.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.food-name {
+    font-size: 17px;
+    position: absolute;
+    top: 120px;
+    margin-left: 40px;
+    transform: translateY(20px);
+}
+
+.category {
+    font-size: 14px;
+    position: absolute;
+    top: 160px;
+    margin-left: 10px;
+    transform: translateY(20px);
+}
+
+
+/* logo part */
+
+.logo-second {
+    background-color: salmon;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    color: black;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+
+.image-fries {
+    width: 203px;
+    height: 143px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("fries.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-salad {
+    width: 203px;
+    height: 143px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("salad.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-chicken2 {
+    width: 203px;
+    height: 143px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("chicken2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-chicken3 {
+    width: 203px;
+    height: 143px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("chicken3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-chicken4 {
+    width: 203px;
+    height: 143px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("chicken4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    background-color: #EAF0F0;
+    width: 949px;
+    height: 100px;
+    position: relative;
+    margin: auto;
+}
+
+.option1 [type="button"]{
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border-style: none;
+    position:absolute;
+    margin-left: 50px;
+    color: #A9A9A9;
+
+}
+
+.option2 [type="button"] {
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border-style: none;
+    position:absolute;
+    margin-left: 300px;
+    color: #A9A9A9;
+}
+.option3 [type="button"]{
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border-style: none;
+    position:absolute;
+    margin-left: 530px;
+    color: #A9A9A9;
+ 
+}
+
+.option4 [type="button"]{
+    display: inline-block;
+    width: 158px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    border-style: none;
+    position:absolute;
+    margin-left: 740px; 
+    color: #A9A9A9;
+}
+
+.footer button:focus {
+    background-color: #4A5C2F;
+    color: #EAF0F0;
+}
+
